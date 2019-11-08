@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>15061278 Simulation</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0">
+    <!--  <meta http-equiv="X-UA-Compatible" content="ie=edge">-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+    </header>
+
+    <div class="box price">
+        <h3>Fare</h3>
+        <p id="fare"></p>
+    </div>
+    <div class="box people">
+        <h3>Passengers</h3>
+        <p id="passenger"></p>
+    </div>
+    <div class="box timeVal">
+        <h3>Time Factor</h3>
+        <p>(Number of seconds displayed in one second)</p>
+        <input id="timeFactorText" type="text" value="10">
+        <input id="timeFactorSlider" type="range" min="10" max="1000" value="10" class="slider" step="10">
+    </div>
+    <div class="box bunch">
+        <h3>Bunches</h3>
+        <p id="bunched_no"></p>
+    </div>
+    <table id="bus_data">
+        <tr>
+            <th>Bus Number</th>
+            <th>Ticket Sales</th>
+            <th>Passenger Count</th>
+        </tr>
+    </table>
+    <canvas id="distance_time" class="box" style=""></canvas>
+
+    <div id="map"></div>
+
+    <footer></footer>
+    <script src="js/papaparse.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/set_up.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCqMM5ULHBWJXjbVUP0J3RDoeUNLKAoGbE&callback=initMap&libraries=geometry"></script>
+    <script src="https://maps.googleapis.com/maps/api/directions?key=AIzaSyCqMM5ULHBWJXjbVUP0J3RDoeUNLKAoGbE"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.2.0-rc.2/Chart.js"></script>
+    <script src="js/jquery.csv.js"></script>
+    <script src="js/StyledMarker.js"></script>
+
+</body>
+
+</html>

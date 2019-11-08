@@ -1,0 +1,78 @@
+#map {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+.box {
+    height: 150px;
+    width: 150px;
+    border: solid black 2px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.price {
+    right: 5px;
+}
+
+.people {
+    right: 5px;
+    top: 170px;
+}
+
+.bunch {
+    right: 5px;
+    top: 330px;
+}
+
+.timeVal {
+    text-align: left;
+    font-size: 10px;
+}
+
+#bus_data {
+    width: 300px;
+    border: solid black 2px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    top: 170px;
+    font-size: 10px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+#distance_time {
+    height: 320px !important;
+    z-index: 1;
+    pointer-events: none;
+    bottom: 0px;
+    position: absolute;
+}
+
+.bunched {
+    background-color: rgba(0, 255, 0, 0.4);
+}
+
+.unbunched {
+    background-color: rgba(255, 0, 0, 0.4);
+}
+
+#fare {
+    margin: 10%;
+    position: relative;
+}
+
+#passenger {
+    margin: 10%;
+    position: relative;
+}
